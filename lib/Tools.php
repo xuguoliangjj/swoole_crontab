@@ -5,7 +5,7 @@
   * Date: 2015-08-29
   */
 class Tools{
-	public __construct(){
+	public function __construct(){
 
 	}
 }
