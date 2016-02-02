@@ -1,6 +1,15 @@
 # swoole_crontab
 基于swoole开发的定时执行框架，多进程并发执行，执行时间监控，注入monolog日志框架方便调试
 
+```shell
+#启动:
+php main.php -s start
+php main.php -s start -d # 守护进程启动
+#关闭:
+php main.php -s stop
+#热加载配置:
+php main.php -s reload
+```
 表结构:
 ```sql
 SET FOREIGN_KEY_CHECKS=0;
